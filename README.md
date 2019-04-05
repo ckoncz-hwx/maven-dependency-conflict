@@ -24,7 +24,7 @@ Not null
 
 (this is `MapConstraints.notNull().toString()`)
 
-Projects `guavam12` and `guavam12r` depend on these two previos projects and try to invoke both test methods.
+Projects `guavam12` and `guavam12r` depend on these two previous projects and try to invoke both test methods.
 The difference between the integrator projects is the order of the dependencies: `guavam12r` has `guavam2` before `guavam1`.
 
 The output of the integrator projects:
@@ -44,12 +44,12 @@ App1 test: java.lang.NoSuchMethodError: com.google.common.base.Optional.fromJava
 App2 test: Not null
 ```
 
-Depending on the order in which the dependencies are declared, of the tests fails because there can be only one Guava library on the classpath.
+Depending on the order in which the dependencies are declared, one of the tests fails because there can be only one Guava library on the classpath.
 
 
  ## Solution attempt
 
-Projects `guavab1` and `guavab2` are bundles that embed the previous Maven projects together with their dependcies.
+Projects `guavab1` and `guavab2` are bundles that embed the previous Maven projects together with their dependencies.
 Project `guavab12` uses Eclipse Concierge to load both bundles and then invokes the tests. Output:
 ```
 $ mvn -DskipTests package exec:exec -am -pl guavab12
