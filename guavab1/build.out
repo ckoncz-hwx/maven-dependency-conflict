@@ -1,0 +1,299 @@
+[INFO] --- maven-bundle-plugin:4.1.0:bundle (default-bundle) @ guavab1 ---
+[DEBUG] Configuring mojo org.apache.felix:maven-bundle-plugin:4.1.0:bundle from plugin realm ClassRealm[extension>org.apache.felix:maven-bundle-plugin:4.1.0, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.felix:maven-bundle-plugin:4.1.0:bundle' with basic configurator -->
+[DEBUG]   (f) buildDirectory = /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target
+[DEBUG]   (f) dependencyReducedPomLocation = /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/dependency-reduced-pom.xml
+[DEBUG]   (f) finalName = guavab1-0.0.1-SNAPSHOT
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/ckoncz/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) m_mavenSession = org.apache.maven.execution.MavenSession@78de58ea
+[DEBUG]   (f) manifestLocation = /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/META-INF
+[DEBUG]   (f) niceManifest = false
+[DEBUG]   (f) outputDirectory = /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes
+[DEBUG]   (f) project = MavenProject: com.ck:guavab1:0.0.1-SNAPSHOT @ /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/pom.xml
+[DEBUG]   (f) remoteArtifactRepositories = [      id: public
+      url: http://nexus-private.hortonworks.com/nexus/content/groups/public
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scrLocation = /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@78de58ea
+[DEBUG] -- end configuration --
+[DEBUG] building maven31 dependency graph for com.ck:guavab1:bundle:0.0.1-SNAPSHOT
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=41943, ConflictMarker.markTime=24682, ConflictMarker.nodeCount=11, ConflictIdSorter.graphTime=21509, ConflictIdSorter.topsortTime=12896, ConflictIdSorter.conflictIdCount=10, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=216379, ConflictResolver.conflictItemCount=10, DefaultDependencyCollector.collectTime=305406, DefaultDependencyCollector.transformTime=326078}
+[DEBUG] com.ck:guavab1:bundle:0.0.1-SNAPSHOT
+[DEBUG]    junit:junit:jar:3.8.1:test
+[DEBUG]    com.ck:guavam1:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       com.google.guava:guava:jar:27.1-jre:compile
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:2.5.2:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]          org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[DEBUG] BND Instructions:
+#-----------------------------------------------------------------------
+#Thu Apr 04 13:39:42 CEST 2019
+pom.id=com.ck\:guavab1\:bundle\:0.0.1-SNAPSHOT
+env.JENV_VERSION=1.8.0.181
+file.encoding.pkg=sun.io
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+env.DISPLAY=/private/tmp/com.apple.launchd.yU51Sx4VA4/org.macosforge.xquartz\:0
+pom.contributors=[]
+project.build.developers=[]
+classworlds.conf=/Users/ckoncz/work/apps/apache-maven-3.5.4/bin/m2.conf
+env.SECURITYSESSIONID=186a9
+pom.pomFile=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/pom.xml
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed
+project.build.groupId=com.ck
+env.LOGNAME=ckoncz
+env.HISTTIMEFORMAT=%F %T
+sun.os.patch.level=unknown
+java.vendor.url=http\://java.oracle.com/
+pom.profiles=[]
+env.TERM_PROGRAM_VERSION=3.2.0
+maven-symbolicname=com.ck.guavab1
+java.version=1.8.0_181
+project.build.contributors=[]
+java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+user.name=ckoncz
+env.LANG=en_US.UTF-8
+project.build.pomFile=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/pom.xml
+sun.io.unicode.encoding=UnicodeBig
+sun.jnu.encoding=UTF-8
+java.runtime.name=Java(TM) SE Runtime Environment
+project.build.outputdirectory=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes
+env.JENV_OPTIONS=
+project.version=0.0.1-SNAPSHOT
+env.JENV_LOADED=1
+java.specification.name=Java Platform API Specification
+user.timezone=
+pom.mailingLists=[]
+path.separator=\:
+project.contributors=[]
+pom.artifactId=guavab1
+env.MAVEN_CMD_LINE_ARGS=\ -am -pl guavab1 package -X
+-fixupmessages=Classes found in the wrong directory;is\:\=warning
+project.name=guavab1
+file.encoding=UTF-8
+pom.url=http\://maven.apache.org
+env.HOME=/Users/ckoncz
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -am -pl guavab1 package -X
+env.TERM_SESSION_ID=w0t18p0\:1D35F0F4-B0DC-4AA9-A7E0-A146E280D856
+project.id=com.ck\:guavab1\:bundle\:0.0.1-SNAPSHOT
+Export-Package=com.ck.guavab1
+java.io.tmpdir=/var/folders/w4/g4qllvkd47s768_0btqzk3700000gp/T/
+project.build.mailingLists=[]
+user.language=en
+env.HISTCONTROL=ignoreboth\:erasedups
+line.separator=\n
+env.JAVA_STARTED_ON_FIRST_THREAD_8395=1
+project.build.directory=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target
+env.HISTSIZE=
+java.vm.info=mixed mode
+java.vm.specification.name=Java Virtual Machine Specification
+env.__CF_USER_TEXT_ENCODING=0x1F6\:0x0\:0x0
+env.COLORTERM=truecolor
+project.build.id=com.ck\:guavab1\:bundle\:0.0.1-SNAPSHOT
+env.ITERM_PROFILE=Default
+project.build.licenses=[]
+pom.modelVersion=4.0.0
+project.licenses=[]
+project.developers=[]
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+project.url=http\://maven.apache.org
+env.JENV_ROOT=/Users/ckoncz/.jenv
+-removeheaders=Include-Resource,Private-Package
+pom.version=0.0.1-SNAPSHOT
+env.XPC_FLAGS=0x0
+-plugin=org.apache.felix.bundleplugin.BlueprintPlugin,aQute.lib.spring.SpringXMLType,org.apache.felix.bundleplugin.JpaPlugin
+project.mailingLists=[]
+pom.packaging=bundle
+env.APP_ICON_8492=../Resources/Eclipse.icns
+gopherProxySet=false
+project.projectDirectory=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1
+os.name=Mac OS X
+project.build.modelVersion=4.0.0
+java.specification.vendor=Oracle Corporation
+env.LDFLAGS=-L/usr/local/opt/openssl/lib
+env.TERM=xterm-256color
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.library.path=/Users/ckoncz/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.
+project.build.build=org.apache.maven.model.Build@41184371
+env.PATH=/Users/ckoncz/.jenv/versions/1.8.0.181/bin\:/usr/local/Cellar/jenv/0.4.4/libexec/libexec\:/usr/local/opt/protobuf@2.5/bin\:/Users/ckoncz/.jenv/shims\:/Users/ckoncz/.jenv/bin\:/Users/ckoncz/work/bin\:/Users/ckoncz/Library/Python/3.7/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/opt/X11/bin\:/usr/local/opt/protobuf@2.5/bin\:/Users/ckoncz/.jenv/shims\:/Users/ckoncz/.jenv/bin\:/Users/ckoncz/work/bin\:/Users/ckoncz/Library/Python/3.7/bin\:/Users/ckoncz/Library/Python/2.7/bin\:/Users/ckoncz/Library/Python/2.7/bin
+pom.build=org.apache.maven.model.Build@41184371
+library.jansi.path=/Users/ckoncz/work/apps/apache-maven-3.5.4/lib/jansi-native
+java.class.version=52.0
+env.SHLVL=2
+maven.multiModuleProjectDirectory=/Users/ckoncz/work/eclipse/workspace-oozie-2
+project.build.version=0.0.1-SNAPSHOT
+pom.projectDirectory=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1
+project.modelVersion=4.0.0
+Bundle-SymbolicName=com.ck.guavab1
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib
+project.build.sourceEncoding=UTF-8
+Private-Package=com.ck.guavab1
+project.build.artifactId=guavab1
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+pom.name=guavab1
+env.COLORFGBG=12;8
+env.USER=ckoncz
+pom.developers=[]
+project.build=org.apache.maven.model.Build@41184371
+env.HISTFILESIZE=
+env.HISTFILE=/Users/ckoncz/.bash_eternal_history
+env.JENV_DIR=/Users/ckoncz/work/apps/apache-maven-3.5.4/boot
+env.TERM_PROGRAM=iTerm.app
+env.JAVA_MAIN_CLASS_60372=org.codehaus.plexus.classworlds.launcher.Launcher
+env.COMMAND_MODE=unix2003
+project.baseDir=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1
+project.build.name=guavab1
+java.vm.specification.version=1.8
+env.JENV_INSTALL_DIR=/usr/local/Cellar/jenv/0.4.4/libexec
+project.groupId=com.ck
+Bundle-Version=0.0.1.SNAPSHOT
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+project.build.profiles=[]
+sun.cpu.isalist=
+env.MAVEN_PROJECTBASEDIR=/Users/ckoncz/work/eclipse/workspace-oozie-2
+project.profiles=[]
+java.ext.dirs=/Users/ckoncz/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java
+Import-Package=*
+os.version=10.13.6
+user.home=/Users/ckoncz
+java.vm.vendor=Oracle Corporation
+env.JAVA_HOME=/Users/ckoncz/.jenv/versions/1.8.0.181
+env.XPC_SERVICE_NAME=0
+user.dir=/Users/ckoncz/work/eclipse/workspace-oozie-2
+maven.conf=/Users/ckoncz/work/apps/apache-maven-3.5.4/conf
+env.PWD=/Users/ckoncz/work/eclipse/workspace-oozie-2
+sun.cpu.endian=little
+project.dir=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1
+pom.licenses=[]
+env.TMPDIR=/var/folders/w4/g4qllvkd47s768_0btqzk3700000gp/T/
+classifier=
+env.JAVA_STARTED_ON_FIRST_THREAD_8492=1
+env.PYCURL_SSL_LIBRARY=openssl
+java.vm.version=25.181-b13
+java.class.path=/Users/ckoncz/work/apps/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar
+os.arch=x86_64
+maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T20\:33\:14+02\:00)
+env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.kKp5D4TUPS/Render
+project.build.url=http\://maven.apache.org
+project.build.projectDirectory=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1
+sun.java.launcher=SUN_STANDARD
+project.packaging=bundle
+java.vm.specification.vendor=Oracle Corporation
+file.separator=/
+java.runtime.version=1.8.0_181-b13
+project.pomFile=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/pom.xml
+env.CPPFLAGS=-I/usr/local/opt/openssl/include
+env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.nFRyZdNPsp/Listeners
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes
+project.build.packaging=bundle
+maven.version=3.5.4
+project.artifactId=guavab1
+user.country=US
+maven.home=/Users/ckoncz/work/apps/apache-maven-3.5.4
+env.SHELL=/bin/bash
+maven.compiler.target=1.8
+env.JENV_HOOK_PATH=
+-sourcepath=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/src/main/java,/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/generated-sources/annotations
+pom.groupId=com.ck
+java.vendor=Oracle Corporation
+Bundle-Name=guavab1
+maven.compiler.source=1.8
+java.specification.version=1.8
+env.APP_ICON_8395=../Resources/Eclipse.icns
+env.ITERM_SESSION_ID=w0t18p0\:1D35F0F4-B0DC-4AA9-A7E0-A146E280D856
+sun.arch.data.model=64
+#-----------------------------------------------------------------------
+
+[DEBUG] BND Classpath:
+#-----------------------------------------------------------------------
+-classpath:\
+ /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes,\
+ /Users/ckoncz/work/eclipse/workspace-oozie-2/guavam1/target/guavam1-0.0.1-SNAPSHOT.jar,\
+ /Users/ckoncz/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar,\
+ /Users/ckoncz/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar,\
+ /Users/ckoncz/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,\
+ /Users/ckoncz/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar,\
+ /Users/ckoncz/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar,\
+ /Users/ckoncz/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar,\
+ /Users/ckoncz/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar,\
+ /Users/ckoncz/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+#-----------------------------------------------------------------------
+
+[DEBUG] build
+[DEBUG] copy d=Jar:dot s=Jar:. p=com/ck/guavab1
+[DEBUG] parseClassFile(): path=com/ck/guavab1/App.class resource=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/com/ck/guavab1/App.class
+[DEBUG] Trying pre-plugin org.apache.felix.bundleplugin.BlueprintPlugin
+[DEBUG] Trying pre-plugin aQute.lib.spring.SpringXMLType
+[DEBUG] Trying pre-plugin org.apache.felix.bundleplugin.JpaPlugin
+[DEBUG] begin aQute.bnd.make.component.ServiceComponent@750a04ec
+[DEBUG] end
+[DEBUG] begin CDIAnnotations
+[DEBUG] parseClassFile(): path=com/ck/guavab1/App.class resource=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/com/ck/guavab1/App.class
+[DEBUG] end
+[DEBUG] begin DSAnnotations
+[DEBUG] end
+[DEBUG] begin MetatypeAnnotations
+[DEBUG] parseClassFile(): path=com/ck/guavab1/App.class resource=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/com/ck/guavab1/App.class
+[DEBUG] parseClassFile(): path=com/ck/guavab1/App.class resource=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/com/ck/guavab1/App.class
+[DEBUG] end
+[DEBUG] begin org.apache.felix.bundleplugin.BlueprintPlugin@47248a48
+[DEBUG] end
+[DEBUG] begin aQute.lib.spring.SpringXMLType@2349f14d
+[DEBUG] end
+[DEBUG] begin org.apache.felix.bundleplugin.JpaPlugin@6a15b73
+[DEBUG] end
+[DEBUG] parseClassFile(): path=com/ck/guavab1/App.class resource=/Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/com/ck/guavab1/App.class
+[DEBUG] BND Manifest:
+#-----------------------------------------------------------------------
+Manifest-Version: 1.0
+Bnd-LastModified: 1554377982262
+Bundle-ManifestVersion: 2
+Bundle-Name: guavab1
+Bundle-SymbolicName: com.ck.guavab1
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: 1.8.0_181 (Oracle Corporation)
+Export-Package: com.ck.guavab1;version="0.0.1"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252
+#-----------------------------------------------------------------------
+
+[DEBUG] Final Manifest:
+#-----------------------------------------------------------------------
+Manifest-Version: 1.0
+Bnd-LastModified: 1554377982262
+Build-Jdk: 1.8.0_181
+Built-By: ckoncz
+Bundle-ManifestVersion: 2
+Bundle-Name: guavab1
+Bundle-SymbolicName: com.ck.guavab1
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.ck.guavab1;version="0.0.1"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252
+#-----------------------------------------------------------------------
+
+[DEBUG] Write manifest to /Users/ckoncz/work/eclipse/workspace-oozie-2/guavab1/target/classes/META-INF/MANIFEST.MF
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] guavam1 0.0.1-SNAPSHOT ............................. SUCCESS [  1.132 s]
+[INFO] guavab1 0.0.1-SNAPSHOT ............................. SUCCESS [  1.654 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.552 s
+[INFO] Finished at: 2019-04-04T13:39:42+02:00
+[INFO] ------------------------------------------------------------------------
